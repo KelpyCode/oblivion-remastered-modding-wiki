@@ -2,7 +2,7 @@
 title: Basic edits in xEdit
 description: 
 published: true
-date: 2025-04-28T13:44:50.733Z
+date: 2025-04-28T13:47:22.299Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T13:13:39.803Z
@@ -49,7 +49,7 @@ Select your new .esp file as the destination.
     ![Screenshot 10](/screenshots/guide10.png =x500)
 ## Step 13
 Confirm.
-    ![Screenshot 11](/screenshots/guide11.png)
+    ![Screenshot 11](/screenshots/guide11.png =500x)
 ## Step 14
 Navigate to your container in your .esp file. Pick Items tab and right click, pick "Add item".
     ![Screenshot 12](/screenshots/guide12.png)
@@ -59,7 +59,7 @@ Find your item you just updated.
     ![Screenshot 14](/screenshots/guide14.png)
 ## Step 16
 Save your file.
-    ![Screenshot 15](/screenshots/guide15.png)
+    ![Screenshot 15](/screenshots/guide15.png =x550)
 ## Step 17
 Enable your plugin in ObvData/Data/plugins.txt.
 
