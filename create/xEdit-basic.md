@@ -2,7 +2,7 @@
 title: Basic edits in xEdit
 description: 
 published: true
-date: 2025-04-28T13:47:22.299Z
+date: 2025-04-30T16:23:22.288Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T13:13:39.803Z
@@ -29,6 +29,8 @@ Open up the AltarESPMain.esp (on the left) and find the item you want to change.
 ## Step 6
 Confirm that you know what you're doing.
    ![Screenshot 4](/screenshots/guide4.png =x300)
+# Note
+Steps from here are just an example of what one could do (in our case, adding a new item).
 ## Step 7
 Change the EditorID of the item so it wouldn't conflict. 
    ![Screenshot 5](/screenshots/guide5.png =500x)
