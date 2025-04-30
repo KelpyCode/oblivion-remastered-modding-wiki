@@ -2,7 +2,7 @@
 title: Basic edits in xEdit
 description: 
 published: true
-date: 2025-04-30T16:23:22.288Z
+date: 2025-04-30T17:29:05.388Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-28T13:13:39.803Z
@@ -36,7 +36,7 @@ Change the EditorID of the item so it wouldn't conflict.
    ![Screenshot 5](/screenshots/guide5.png =500x)
 ## Step 8
 Select a new .esp file here - we don't want to change the original files.
-   ![Screenshot 6](/screenshots/guide6.png =x300)
+   ![Screenshot 6](/screenshots/guide6.png =x500)
 ## Step 9
 Pick a new name for your mod.
    ![Screenshot 7](/screenshots/guide7.png =x100)
