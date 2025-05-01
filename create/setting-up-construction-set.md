@@ -2,7 +2,7 @@
 title: Setting up Construction Set
 description: 
 published: true
-date: 2025-05-01T21:48:35.664Z
+date: 2025-05-01T21:59:10.966Z
 tags: modding, index
 editor: markdown
 dateCreated: 2025-05-01T21:48:35.664Z
@@ -48,7 +48,9 @@ dateCreated: 2025-05-01T21:48:35.664Z
 ---
 
 ## 🔥 FAQ:
-- N/A
+- **My mods crash to desktop?**  
+  ✅ Try using: [UE4SS TesSyncMapInjector](https://www.nexusmods.com/oblivionremastered/mods/1272).  
+  ❗ For linking your new Construction Set Form IDs with Unreal Engine, Still a work in progress.
 
 ---
 
