@@ -2,24 +2,28 @@
 title: Setting up Unreal Engine
 description: 
 published: true
-date: 2025-04-27T22:34:37.458Z
+date: 2025-05-02T05:31:12.394Z
 tags: modding, unreal-engine, tool
 editor: markdown
 dateCreated: 2025-04-27T22:19:03.979Z
 ---
 
-# Setting up Unreal Engine 5.3 project
+# Setting up Unreal Engine 5.3 project (old version)
 ## 🛠️ You Need:
 - [Oblivion Remastered Project](https://www.nexusmods.com/oblivionremastered/mods/880)
 - **Unreal Engine 5.3+** (built from source)
 - **Visual Studio 2022** (C++ workload)
-- ~150GB free space
+- ~250GB free space
 
 ---
 
 ## 📋 Setup Steps:
+0. **Link your GitHub to your Epic account**
+	 - Follow [this guide](https://dev.epicgames.com/documentation/en-us/unreal-engine/downloading-source-code-in-unreal-engine#accessingunrealenginesourcecodeongithub).
+  
 1. **Download Unreal Source**  
    - From [Epic Games GitHub](https://github.com/EpicGames/UnrealEngine) (link Epic account)
+   - From [Community Maintained Fork](https://github.com/C0bra5/UnrealEngine) (link Epic account)
 
 2. **Extract and Set Up**  
    - Extract (e.g., `D:\UnrealEngine5.3`)  
