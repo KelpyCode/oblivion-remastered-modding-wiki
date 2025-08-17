@@ -2,7 +2,7 @@
 title: Getting Started on Linux
 description: 
 published: true
-date: 2025-08-17T02:03:12.046Z
+date: 2025-08-17T14:18:53.631Z
 tags: modding, unreal-engine, tool
 editor: markdown
 dateCreated: 2025-08-17T02:03:12.046Z
@@ -30,8 +30,8 @@ dateCreated: 2025-08-17T02:03:12.046Z
 1. Build Unreal Engine
 
     - [Fix UInputDeviceTriggerResistanceProperty (GitHub)](https://github.com/nathtest/UProjOblivionRemastered/tree/master?tab=readme-ov-file#unreal-532-source-fix)
-    
-        ![UInputDeviceTriggerResistanceProperty](/uinputdevicetriggerresistanceproperty.png)
+
+        ![UInputDeviceTriggerResistanceProperty](/linux/uinputdevicetriggerresistanceproperty.png)
 
     - [Building Unreal Engine from Source (Epic Games)](https://dev.epicgames.com/documentation/en-us/unreal-engine/building-unreal-engine-from-source)
 
@@ -41,16 +41,20 @@ dateCreated: 2025-08-17T02:03:12.046Z
 
         - Extract the archive `~/Documents/Unreal Projects/OblivionRemastered/`
 
-<!-- todo: JsonAsAsset -->
-
 1. Generate Visual Studio Code Workspace
 
     ```bash
     cd ~/.local/share/UnrealEngine-5.3/Engine/Build/BatchFiles/Linux/
-    ./GenerateProjectFiles.sh -vscode -project=/home/<user>/Documents/Unreal\\ Projects/OblivionRemastered/OblivionRemastered.uproject
+    ./GenerateProjectFiles.sh -vscode -project=/home/user/Documents/Unreal\\ Projects/OblivionRemastered/OblivionRemastered.uproject
     ```
 
+> Unreal Engine shell scripts (.sh) expect full paths in arguments, ensure to replace "user" in the path above.
+{.is-warning}
+
 1. Launch UnrealEditor `~/.local/share/UnrealEngine-5.3/Engine/Binaries/Linux/UnrealEditor`
+
+> It can be helpful to create a Symbolic Link (symlink) in `~/.local/bin/` or add the location to `$PATH`.
+{.is-info}
 
 1. Open Project `~/Documents/Unreal Projects/OblivionRemastered/OblivionRemastered.uproject`
 
@@ -84,3 +88,7 @@ dateCreated: 2025-08-17T02:03:12.046Z
 
 - [retoc (GitHub)](https://github.com/trumank/retoc/releases/latest)
 - [blender](https://www.blender.org/download/)
+
+## Known Issues
+
+1. **JsonAsAsset** is not compatible with Linux.
