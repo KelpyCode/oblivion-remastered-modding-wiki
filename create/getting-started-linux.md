@@ -2,13 +2,17 @@
 title: Getting Started on Linux
 description: 
 published: true
-date: 2025-08-17T14:18:53.631Z
+date: 2025-08-19T22:30:57.238Z
 tags: modding, unreal-engine, tool
 editor: markdown
 dateCreated: 2025-08-17T02:03:12.046Z
 ---
 
 # Getting Started on Linux
+
+> Cooking assets on Linux currently uses "PhysXGeneric" and isn't supported in Oblivion Remastered. Develop at your own risk.
+{.is-danger}
+
 
 ## Requirements
 
